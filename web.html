@@ -46,10 +46,14 @@
         }
 
         .profile-description{
-            background-color: #65349c84;
+            background-color: #c09fe6f5;
             width: 70%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
             
             margin-left: 15%;
+            border-style: solid;
+            border-color: #fff;
             
         }
 
@@ -61,9 +65,9 @@
             margin-left: 1%;
            
             border-style: solid;
-            border-color: #65349c56;
+            border-color: #edeaf0e0;
             border-radius: 10px;
-            background-color: #65349c5d;
+            background-color: #000000b9;
             padding-bottom: 3%;
             
         }
@@ -71,6 +75,32 @@
         .img-margins{
             margin-bottom: 3%;
             margin-left: 5%;
+
+        }
+
+        body{
+         background-image: url("images/background.avif");
+         
+        }
+
+        h1{
+          font-family: "Roboto Slab", sans-serif;
+          font-weight: bold;
+        }
+        h2{
+          color: #fff;
+        }
+
+        h6{
+          color: aliceblue;
+        }
+        hr{
+          color: white;
+        }
+
+        .c-heading{
+          background-color: rgba(0, 0, 0, 0.708); 
+          border-bottom: solid white;
 
         }
 
@@ -93,16 +123,23 @@
     </header>
 
 
-    <div class="profile-description text-center my-5">
-        <h2>Web Dev Projects</h2>
+    <div class="text-center my-5">
+        <h1  style="color: #fff;" >Web Dev Projects</h1>
     </div>
 
+    <hr style="color: #fff;">
 
-    <div class="web">
-        <div class="text-center">
-            <h2 style="color: #423d99b0;"> Anime Fan Page</h2>
-            <h6 style="color: #901717a2;">A simple website that uses html and css</h6>
+
+    <div class="web ">
+        <div class="text-center py-4 c-heading" >
+            <h2 class="" > Anime Fan Page</h2>
+            <hr>
+            
+ 
+            <h6 >A simple website that uses html and css</h6>
+            
         </div>
+        
         
 
         <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -154,9 +191,10 @@
 
 
     <div class="web">
-        <div class="text-center">
-            <h2 style="color: #423d99b0;"> Hotel Management</h2>
-            <h6 style="color: #901717a2;">Website made on django with with both front-end and back-end</h6>
+        <div class="text-center  py-4 c-heading">
+            <h2 > Hotel Management</h2>
+              <hr>
+            <h6 >Website made on django with with both front-end and back-end</h6>
         </div>
         
 
@@ -208,9 +246,10 @@
 
 
     <div class="web">
-        <div class="text-center">
-            <h2 style="color: #423d99b0;"> Job Recommendation Website</h2>
-            <h6 class="mx-5" style="color: #901717a2;">A website that uses machine learning to log user behaviour and recommend websites based on the users clicks. The website also allows users to save jobs and  has Authentication and Authorization features installed.The website was made on the django framework.</h6>
+        <div class="text-center  py-4 c-heading">
+            <h2> Job Recommendation Website</h2>
+  <hr>
+            <h6 class="mx-5" >A website that uses machine learning to log user behaviour and recommend websites based on the users clicks. The website also allows users to save jobs and  has Authentication and Authorization features installed.The website was made on the django framework.</h6>
         </div>
         
 
@@ -259,11 +298,11 @@
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -273,9 +312,10 @@
 
 
     <div class="web">
-        <div class="text-center">
-            <h2 style="color: #423d99b0;"> Hotel Management</h2>
-            <h6 style="color: #901717a2;">A website built on the Laravel framework that allows to keep track of all the bookings, emails and resources of the hotel</h6>
+        <div class="text-center  py-4 c-heading">
+            <h2> Hotel Management</h2>
+<hr>
+            <h6 >A website built on the Laravel framework that allows to keep track of all the bookings, emails and resources of the hotel</h6>
         </div>
         
 
@@ -323,9 +363,11 @@
             </button>
           </div>
 
-    </div>
+          
+    <div class="text-center my-5"> <a href="https://mojojojo9975.github.io/Index.html"><button type="button" class="btn btn-outline-light ">Back to Home page</button></a></div>
 
-    <div class="text-center my-5"> <a href="https://mojojojo9975.github.io/Index.html"><button type="button" class="btn btn-outline-dark ">Back to Home page</button></a></div>
+
+    </div>
 
 
 
